@@ -1,5 +1,5 @@
 $("form").on("submit", (e) => {
-  alert("Mail has been sent successfully");
+  alert("I will contect you very soon 🙂 ");
   //   let name = $("#name").val();
   //   let email = $("#email").val();
   //   let message = $("#message").val();
