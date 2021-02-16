@@ -1,0 +1,38 @@
+.about{
+    height: 35rem;
+    background-color: rgba($color: $color-primary-3, $alpha: .5);
+    & .inner{
+        clip-path: polygon(0px 13%, 100% 0px, 100% 100%, 0px 87%);
+        .left,.center,.right{
+            cursor: pointer;
+            transition: transform .4s ease-in-out;
+            -webkit-transition: transform .4s ease-in-out;
+            -moz-transition: transform .4s ease-in-out;
+            -ms-transition: transform .4s ease-in-out;
+            -o-transition: transform .4s ease-in-out;
+            &:hover     
+{
+                transform: translateY(-1rem);
+                -webkit-transform: translateY(-1rem);
+                -moz-transform: translateY(-1rem);
+                -ms-transform: translateY(-1rem);
+                -o-transform: translateY(-1rem);
+}
+        }
+        .left{
+            min-height: 15rem;
+        }
+        .center{
+            min-height: 18rem;
+        }
+        .right{
+            min-height: 23rem;
+        }
+    }
+    a{
+        color: #000;
+        &:hover{
+            color: $color-primary-2;
+        }
+    }
+}

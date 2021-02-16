@@ -1,0 +1,11 @@
+{
+  "name": "sandeep.me",
+  "version": "1.0.0",
+  "description": "portfolio of sandeep",
+  "main": "index.js",
+  "scripts": {
+  "start": "node-sass public/scss/main.scss public/css/style.css --watch" 
+  },
+  "author": "sandeep",
+  "license": "ISC"
+}

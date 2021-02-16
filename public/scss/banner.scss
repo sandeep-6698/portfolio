@@ -1,0 +1,12 @@
+.banner{
+    height: 80vh;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 87%, 0px 100%);
+    .left{
+        h1{
+            line-height: 4rem;
+        }
+        p{
+            line-height: 2rem;
+        }
+    }
+}
