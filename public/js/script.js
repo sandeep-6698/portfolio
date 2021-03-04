@@ -17,3 +17,16 @@ $("form").on("submit", (e) => {
   //     alert("Mail has been sent successfully");
   //   });
 });
+// Fancybox Config
+$('[data-fancybox="gallery"]').fancybox({
+  buttons: [
+    "thumbs",
+    "zoom",
+    "fullScreen",
+    "share",
+    "close"
+  ],
+  loop: false,
+  protect: true
+});
+

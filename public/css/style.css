@@ -79,16 +79,18 @@ body {
         -moz-transform: translateY(-1rem);
         -ms-transform: translateY(-1rem);
         -o-transform: translateY(-1rem); }
+      .about .inner .left li, .about .inner .center li, .about .inner .right li {
+        font-size: 1.1rem; }
     .about .inner .left {
       min-height: 15rem; }
     .about .inner .center {
       min-height: 18rem; }
     .about .inner .right {
       min-height: 23rem; }
-  .about a {
-    color: #000; }
-    .about a:hover {
-      color: #6A1AD7; }
+    .about .inner a {
+      color: #000; }
+      .about .inner a:hover {
+        color: #6A1AD7; }
 
 textarea:focus,
 textarea.form-control:focus,
@@ -104,3 +106,30 @@ input[type=number]:focus,
 [contenteditable].form-control:focus {
   box-shadow: inset 0 -1px 0 #ddd;
   border: 2px solid #452bc7; }
+
+.portfolio .project-img {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .portfolio .project-img img {
+    max-height: 7rem; }
+
+.btn {
+  transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -ms-transition: background .5s ease-in-out;
+  -o-transition: background .5s ease-in-out;
+  position: relative; }
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: red; }
+
+.btn:hover.btn::before {
+  width: 100%; }

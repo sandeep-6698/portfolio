@@ -12,8 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Changa&family=Noto+Sans+SC:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./public/css/style.css">
-    <script src="https://smtpjs.com/v3/smtp.js"></script> 
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>  -->
+    </head>
 <body>
     <div class="container-fluid p-0">
         <div class="bg-primary">
@@ -53,8 +54,8 @@
                     Reactjs, Vuejs, expressjs, Nextjs, Nuxtjs, MongoDB, Mysql etc.</p>
                </div>
             </div>
-            <div class="col-md-4 right d-flex justify-content-center align-items-center">
-                <h1>Content</h1>
+            <div class="col-md-4 right d-flex justify-content-center align-items-center left-content">
+                <img class="rounded-circle h-50 w-75" src="./public/img/me.jpg" alt="me">
             </div>
         </div>
     </div>
@@ -96,83 +97,146 @@
     <div class="container portfolio margin_60_40">
         <h2 class="text-uppercase text-center mb-5">Portfolio</h2>
         <div class="row mt-3">
+
             <!-- project list -->
-            <div class="col-12 mb-5">
+            <div class="col-sm-6 mb-5 project">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-sm-4">
-                                <img src="./public/img/p1.jpg" class="h-100 w-100" alt="project image">
+                            <div class="col-sm-4 project-img">
+                                <img src="./public/svg/ree-sky.svg" class="w-100 h-100" alt="project image">
                             </div>
                             <div class="col-sm-8 d-flex align-items-center">
                                 <div class="inner">
-                                    <h4 class="text-primary">Project Name</h4>
-                                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum soluta obcaecati suscipit? Totam nisi ipsam modi, laboriosam expedita asperion.</p>
-                                <a href="#" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Visit Website</a>
+                                    <h4 class="text-primary text-capitalize">ree sky</h4>
+                                <p class="description">Real Esate Explorer </p>
+                                 <a href="./public/svg/ree-sky.svg" data-fancybox="gallery" data-caption="Ree Sky" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- project end -->
-            <div class="col-12 mb-5">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img src="./public/img/p1.jpg" class="h-100 w-100" alt="project image">
-                            </div>
-                            <div class="col-sm-8 d-flex align-items-center">
-                                <div class="inner">
-                                    <h4 class="text-primary">Project Name</h4>
-                                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum soluta obcaecati suscipit? Totam nisi ipsam modi, laboriosam expedita asperion.</p>
-                                <a href="#" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Visit Website</a>
-                                </div>
+
+          <!-- project list -->
+          <div class="col-sm-6 mb-5 project">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 project-img">
+                            <img src="./public/svg/jitsi.svg" class="h-100 w-100" alt="project image">
+                        </div>
+                        <div class="col-sm-8 d-flex align-items-center">
+                            <div class="inner">
+                                <h4 class="text-primary text-capitalize">Jitsi Meet</h4>
+                            <p class="description">Jitsi Meet</p>
+                             <a href="./public/svg/jitsi.svg" data-fancybox="gallery" data-caption="Jitsi Meet" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- project end -->
-            <div class="col-12 mb-5">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img src="./public/img/p1.jpg" class="h-100 w-100" alt="project image">
-                            </div>
-                            <div class="col-sm-8 d-flex align-items-center">
-                                <div class="inner">
-                                    <h4 class="text-primary">Project Name</h4>
-                                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum soluta obcaecati suscipit? Totam nisi ipsam modi, laboriosam expedita asperion.</p>
-                                <a href="#" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Visit Website</a>
-                                </div>
+        </div>
+
+      <!-- project list -->
+          <div class="col-sm-6 mb-5 project">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 project-img">
+                            <img src="./public/svg/tropo.svg" class="h-100 w-75" alt="project image">
+                        </div>
+                        <div class="col-sm-8 d-flex align-items-center">
+                            <div class="inner">
+                                <h4 class="text-primary text-capitalize">Tropo</h4>
+                            <p class="description">Tropo.</p>
+                             <a href="./public/svg/tropo.svg" data-fancybox="gallery" data-caption="Tropo" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- project end -->
-            <div class="col-12 mb-5">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img src="./public/img/p1.jpg" class="h-100 w-100" alt="project image">
-                            </div>
-                            <div class="col-sm-8 d-flex align-items-center">
-                                <div class="inner">
-                                    <h4 class="text-primary">Project Name</h4>
-                                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum soluta obcaecati suscipit? Totam nisi ipsam modi, laboriosam expedita asperion.</p>
-                                <a href="#" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Visit Website</a>
-                                </div>
+        </div>
+
+         <!-- project list -->
+         <div class="col-sm-6 mb-5 project">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 project-img d-flex justify-content-center align-items-center">
+                            <img src="./public/svg/ree-sky.svg" class="h-100 w-75" alt="REE Earth">
+                        </div>
+                        <div class="col-sm-8 d-flex align-items-center">
+                            <div class="inner">
+                                <h4 class="text-primary text-capitalize">Ree earth</h4>
+                            <p class="description">Real Estate Explorer - Earth.</p>
+                             <a href="./public/svg/ree-sky.svg" data-fancybox="gallery" data-caption="Ree earth" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- project end -->
+        </div>
+            
+        <!-- project list -->
+        <div class="col-sm-6 mb-5 project">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 project-img d-flex justify-content-center align-items-center">
+                            <img src="./public/svg/quote-now.svg" class="h-100 w-75" alt="REE Earth">
+                        </div>
+                        <div class="col-sm-8 d-flex align-items-center">
+                            <div class="inner">
+                                <h4 class="text-primary text-capitalize">Quote Now</h4>
+                            <p class="description">Quote Now</p>
+                             <a href="./public/svg/quote-now.svg" data-fancybox="gallery" data-caption="quote now" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- project list -->
+        <div class="col-sm-6 mb-5 project">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 project-img d-flex justify-content-center align-items-center">
+                            <img src="./public/img/axixa.png" class="h-100 w-75" alt="REE Earth">
+                        </div>
+                        <div class="col-sm-8 d-flex align-items-center">
+                            <div class="inner">
+                                <h4 class="text-primary text-capitalize">Axixa Technologies</h4>
+                            <p class="description">Axixa Technologies</p>
+                             <a href="./public/img/axixa.png" data-fancybox="gallery" data-caption="Axixa" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- project list -->
+        <div class="col-sm-6 mb-5 project">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4 project-img d-flex justify-content-center align-items-center">
+                            <img src="./public/img/tea-coders.jpg" class="h-100 w-75" alt="REE Earth">
+                        </div>
+                        <div class="col-sm-8 d-flex align-items-center">
+                            <div class="inner">
+                                <h4 class="text-primary text-capitalize">Tea Coders</h4>
+                            <p class="description">Tea Coders</p>
+                            <a href="./public/img/tea-coders.jpg" data-fancybox="gallery" data-caption="Tea Coders" class="btn btn-lg text-uppercase text-white bg-primary border v-btn">Priview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </div>
     </div>
     <!-- portfolio end -->
@@ -266,8 +330,7 @@
                             <div class="form-group d-flex justify-content-center align-items-center">
                                 <button class="btn btn-lg bg-primary text-white text-uppercase">Submit</button>
                             </div>
-                        </form>
-                     
+                        </form> 
                 </div>
             </div>
         </div>
@@ -290,6 +353,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src="./public/js/script.js"></script>
+
 </body>
 </html>

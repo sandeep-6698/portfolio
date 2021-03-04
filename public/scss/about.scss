@@ -11,13 +11,16 @@
             -ms-transition: transform .4s ease-in-out;
             -o-transition: transform .4s ease-in-out;
             &:hover     
-{
+                {
                 transform: translateY(-1rem);
                 -webkit-transform: translateY(-1rem);
                 -moz-transform: translateY(-1rem);
                 -ms-transform: translateY(-1rem);
                 -o-transform: translateY(-1rem);
-}
+            }
+            li{
+                font-size: 1.1rem;
+            }
         }
         .left{
             min-height: 15rem;
@@ -28,11 +31,11 @@
         .right{
             min-height: 23rem;
         }
-    }
-    a{
-        color: #000;
-        &:hover{
-            color: $color-primary-2;
+        a{
+            color: #000;
+            &:hover{
+                color: $color-primary-2;
+            }
         }
-    }
+    }    
 }
